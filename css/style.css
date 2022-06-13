@@ -103,7 +103,7 @@ ul li a, .hero-link {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 32px;
+    padding: 50px;
 }
 .cards {
     display: flex;
@@ -190,4 +190,11 @@ ul li a, .hero-link {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+}
+.sign-up-text-description {
+    font-weight: 600;
+    font-size: 18px;
+}
+a:hover {
+    color: #3882F6;
 }
