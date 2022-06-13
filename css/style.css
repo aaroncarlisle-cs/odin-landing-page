@@ -133,3 +133,28 @@ ul li a, .hero-link {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
 }
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+    align-items: center;
+}
+.quote-text {
+    font-size: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    color: #1F2937;
+    width: 500px;
+    font-weight: 500;
+}
+.quote-signature {
+    color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: flex-end;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+}
