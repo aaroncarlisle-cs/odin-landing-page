@@ -8,7 +8,10 @@ let quotes = ['Jasmine, knock it off!',
     "You're filthy! You need a bath!", 
     'Leave it! You come back here right now!',
     "Ow! That really hurt! Don't nip at me when I give you treats!",
-    'I love you Jasmine'];
+    'I love you Jasmine. <br>Oof, nevermind!',
+    'Jasmine! <br>Wanna go for a ...<br>walk?',
+    'Woah dog, your breath is RANCID! What did you eat?'
+    ];
 let sigs = ['-James', '-Mark', '-Benjamin', '-Sally', '-Alisha', '-Jen', '-Ron', '-Brad', '-Natasha']
 function newQuote () {
     let rangeText = quotes.length;
