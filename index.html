@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b80dae9188.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -25,8 +26,9 @@
         <div class="hero-container">
             <div class="hero-left">
                 <h1 class="hero-big">That darn husky is always causing trouble!</h1>
-                <p class="hero-text">In conjuction with <a href="https://www.theodinproject.com/" class="hero-link">The Odin Project</a> this site represents a flexbox landing page
-                about my darn husky! Her name is Jasmine and she is always causing trouble.</p>
+                <p class="hero-text">This site was made to meet the requirements of the Flexbox Landing Page for
+                     <a href="https://www.theodinproject.com/" class="hero-link">The Odin Project.</a> The theme is my 
+                    mischevious husky and I had a lot of fun building this. I hope you enjoy!</p>
                 <button class="sign-up-button">Sign up</button>
             </div>
             <div class="hero-right">
@@ -37,7 +39,7 @@
     </header>
 
     <div class="gallery" id="gallery">
-        <div class="gallery-header">A Day in the Life</div>
+        <div class="gallery-header">A Day in the Life of Jasmine</div>
         <div class="cards">
             <div class="card">
                 <img src="./img/jasmine-napping-thumbnail.png" class="thumbnail">
@@ -59,8 +61,9 @@
     </div>
 
     <div class="quote" id="quote">
-        <div class="quote-text">That darn husky, why does she always have to be getting into trouble?</div>
-        <div class="quote-signature">-Anonymous</div>
+        <div class="quote-text" id="quote-text">That darn husky, why does she always have to be getting into trouble?</div>
+        <div class="quote-signature" id="quote-signature">-Anonymous</div>
+        <i class="fa-solid fa-arrows-rotate" onclick="newQuote()"></i>
     </div>
 
     <div class="sign-up" id="sign-up">
@@ -80,5 +83,7 @@
         <h5 class="hero-text">Copyright &copy; <a href="https://aaroncarlisle.dev" class="hero-link">Aaron Carlisle</a> 2022</h5>
         <h5 class="hero-text">Made in conjunction with <a href="https://www.theodinproject.com/" class="hero-link">The Odin Project</a></h5>
     </div>
+    <script src="./js/script.js"></script>
+    
 </body>
 </html>

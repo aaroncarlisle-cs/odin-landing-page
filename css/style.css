@@ -132,9 +132,11 @@ ul li a, .hero-link {
 .quote {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #E5E7EB;
     padding: 100px;
     align-items: center;
+    min-height: 200px;
 }
 .quote-text {
     font-size: 36px;
@@ -143,6 +145,7 @@ ul li a, .hero-link {
     color: #1F2937;
     width: 500px;
     font-weight: 500;
+    flex-grow: 1;
 }
 .quote-signature {
     color: #1F2937;
@@ -153,6 +156,7 @@ ul li a, .hero-link {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     padding: 10px 0;
+    flex-shrink: 0;
 }
 .sign-up {
     padding: 100px 450px;
@@ -195,6 +199,11 @@ ul li a, .hero-link {
     font-weight: 600;
     font-size: 18px;
 }
-a:hover {
+a:hover, i:hover {
     color: #3882F6;
+    cursor: pointer;
+}
+i {
+    width: 500px;
+    text-align: right;
 }
