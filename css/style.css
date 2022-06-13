@@ -115,13 +115,10 @@ ul li a, .hero-link {
     display: flex;
     flex-direction: column;
 }
-.card-text{
-
-}
 .thumbnail {
     height: 180px;
     width: auto;
-    border: 4px solid #3882F6;
+    border: 2px solid #3882F6;
     border-radius: 10px;
 }
 .card-text {
