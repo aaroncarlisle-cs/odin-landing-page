@@ -65,13 +65,12 @@ ul li a, .hero-link {
     color: #F9FAF8;
     font-family: 'Oxygen', sans-serif;
 }
-.hero-text {
+.hero-text, .sign-up-text-description {
     padding-top: 10px;
     font-size: 18px;
     font-weight: 500;
     color: #E5E7EB;
     font-family: 'Source Sans Pro', sans-serif;
-    flex-grow: 1;
 }
 .hero-img {
     height: 280px;
@@ -79,7 +78,7 @@ ul li a, .hero-link {
     border: 2px solid #1F2937;
     border-radius: 20px;
 }
-.sign-up-button {
+.sign-up-button, button {
     padding: 8px 16px;
     border: 2px solid #3882F6;
     font-family: 'Oxygen', sans-serif;
@@ -157,4 +156,33 @@ ul li a, .hero-link {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     padding: 10px 0;
+}
+.sign-up {
+    padding: 100px 450px;
+}
+.sign-up-box {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-text-header {
+    display: flex;
+    font-size: 24px;
+    font-family: 'roboto', sans-serif;
+    color: #F9FAF8
+}
+.sign-up-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.white-border {
+    border: 2px solid #F9FAF8;
 }
