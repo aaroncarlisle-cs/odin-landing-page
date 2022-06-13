@@ -186,3 +186,11 @@ ul li a, .hero-link {
 .white-border {
     border: 2px solid #F9FAF8;
 }
+.footer {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
