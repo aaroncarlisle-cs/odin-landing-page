@@ -106,12 +106,12 @@ a.hero-link, a.hero-link:visited, a.hero-link:active {
 a.hero-link:hover {
     color: var(--light-blue);
 }
-.sign-up-button {
+.sign-up-button  {
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding: 8px 16px;
     border: 2px solid var(--light-blue);
-    font-family: var(--source-font-2);
+    font-family: var(--source-font);
     font-size: 1.125rem;
     background-color: var(--light-blue);
     color: var(--white);
@@ -155,7 +155,69 @@ a.hero-link:hover {
     border-radius: 10px;
     margin-top: 1rem;
 }
-/* temporary */
-.quote, .footer{
-    display: none;
+.sign-up {
+    background-color: var(--light-blue);
+}
+.sign-up-text-header {
+    margin: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-family: var(--roboto-font);
+    color: var(--white);
+}
+.sign-up-text-description {
+    margin: 0.5rem 2rem;
+    font-size: 1.125rem;
+    font-family: var(--source-font);
+    color: var(--white);
+}
+.white-border {
+    border: 2px solid var(--white);
+    margin: 2rem;
+    margin-top: 0.5rem;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--gray);
+    min-height: 15rem;
+}
+.quote-text, .quote-signature {
+    margin: 2rem;
+    margin-top: 2rem;
+}
+.quote-text {
+    font-family: var(--source-font);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.quote-signature {
+    margin: 0 2rem;
+    align-self: flex-end;
+    font-family: var(--oxygen-font);
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-style: italic;
+}
+.fa-arrows-rotate {
+    margin-bottom: 2rem;
+}
+.footer {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-blue);
+    padding: 2rem;
+    color: var(--white);
+}
+.footer h5 {
+    font-size: 0.8rem;
+    font-family: var(--source-font);
+    font-weight: 500;
+}
+.fa-github {
+    padding: 0 5px;
+    font-weight: 700;
 }
