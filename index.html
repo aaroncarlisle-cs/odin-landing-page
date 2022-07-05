@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b80dae9188.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/b80dae9188.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,31 +17,28 @@
         <nav class="full">
             <h3 class="header-logo">That Darn Husky!</h3>
             <ul>
-                <li><a class="nav-link" href="#gallery">Gallery</a></li>
-                <li><a class="nav-link" href="#quote">Quote</a></li>
-                <li><a class="nav-link" href="#sign-up">Sign Up</a></li>
+                <li><a class="nav-link-full" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link-full" href="#quote">Quote</a></li>
+                <li><a class="nav-link-full" href="#sign-up">Sign Up</a></li>
             </ul>
         </nav>
+        
         <nav class="compact">
-            <i class="fa-solid fa-bars fa-2x burger" id="burger"></i>
-            <ul class="hidden">
-                <li><a class="nav-link" href="#gallery">Gallery</a></li>
-                <li><a class="nav-link" href="#quote">Quote</a></li>
-                <li><a class="nav-link" href="#sign-up">Sign Up</a></li>
+            <i class="fa-solid fa-bars fa-2x burger" id="burger" onclick="toggleMenu()"></i>
+            <ul class="compact-items hidden">
+                <li><a class="nav-link" onclick="toggleMenu()" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link" onclick="toggleMenu()" href="#quote">Quote</a></li>
+                <li><a class="nav-link" onclick="toggleMenu()" href="#sign-up">Sign Up</a></li>
             </ul>
         </nav>
 
         <div class="hero-container">
-            <div class="hero-left">
-                <h1 class="hero-big">That darn husky is always causing trouble!</h1>
-                <p class="hero-text">This site was made to meet the requirements of the Flexbox Landing Page for
-                     <a href="https://www.theodinproject.com/" class="hero-link">The Odin Project.</a> The theme is my 
-                    mischevious husky and I had a lot of fun building this. I hope you enjoy!</p>
-                <button class="sign-up-button">Sign up</button>
-            </div>
-            <div class="hero-right">
-                <img src="./img/jasmine.jpg" class="hero-img">
-            </div>
+            <h1 class="hero-big">That darn husky is always causing trouble!</h1>
+            <p class="hero-text">This site was made to meet the requirements of the Flexbox Landing Page for
+                 <a href="https://www.theodinproject.com/" class="hero-link">The Odin Project.</a> The theme is my 
+                mischevious husky and I had a lot of fun building this. I hope you enjoy!</p>
+            <button class="sign-up-button">Sign up</button>
+            <img src="./img/jasmine.jpg" class="hero-img">
         </div>
        
     </header>
@@ -91,7 +88,5 @@
         <h5 class="hero-text">Copyright &copy; <a href="https://aaroncarlisle.dev" class="hero-link">Aaron Carlisle</a> 2022</h5>
         <h5 class="hero-text">Made in conjunction with <a href="https://www.theodinproject.com/" class="hero-link">The Odin Project</a></h5>
     </div>
-    <script src="./js/script.js"></script>
-    
 </body>
 </html>
