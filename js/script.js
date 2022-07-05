@@ -21,3 +21,8 @@ function newQuote () {
     quoteText.innerHTML = quotes[quoteNum];
     quoteSig.innerHTML = sigs[sigNum];
 }
+
+function toggleMenu () {
+    let menu = document.querySelector('.compact-items');
+    menu.classList.toggle('hidden');
+}
