@@ -221,3 +221,49 @@ a.hero-link:hover {
     padding: 0 5px;
     font-weight: 700;
 }
+@media screen and (min-width: 767px) {
+    nav ul li, .burger {
+        padding: 2rem 4rem;
+    }
+    .hero-container {
+        padding: 0 4rem;
+        grid-template-areas: 
+            "heading heading picture picture"
+            "body body body body"
+            "btn btn btn btn";
+    }
+    .hero-container .hero-big, .gallery .gallery-header {
+        align-self: center;
+        font-size: 2rem;
+    }
+    .hero-container .hero-text, .hero-container .sign-up-button, .card-text {
+        font-size: 1.3rem;
+    }
+    .hero-img {
+        height: 10rem;
+        width: auto;
+    }
+    .card-text {
+        margin-top: 1rem;
+    }
+    .quote {
+        padding: 0rem 8rem;
+    }
+    .sign-up-text-header,  .sign-up-text-description, .sign-up-button-container
+    {
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .white-border {
+        margin: 0;
+    }
+    .sign-up {
+        padding: 2rem 4rem;
+    }
+    .sign-up-text-header, .sign-up-text-description {
+        padding-bottom: 1rem;
+    }
+    .footer h5{
+        font-size: 1rem;
+    }
+}
