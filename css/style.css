@@ -3,6 +3,9 @@
     --main-bg-color-alt: #3882F6;
     --hero-text-color: #F9FAF8;
     --hero-link-color: #E5E7EB;
+    --main-font: 'roboto', sans-serif;
+    --alt-font: 'Source Sans Pro', sans-serif;
+    --alt-font-2: 'Oxygen', sans-serif;
 }
 * {
     margin: 0; padding: 0;
@@ -16,19 +19,17 @@ header {
     background-color: var(--main-bg-color);
 }
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0px 450px;
-    height: 50px;
-    flex-shrink: 0;
-    align-items: center;
+
+}
+.full {
+    display: none;
+}
+.compact {
+
 }
 .header-logo
 {
-    display: flex;
-    font-size: 24px;
-    font-family: 'roboto', sans-serif;
+    font-family: var(--main-font);
     color: var(--hero-text-color);
 }
 
@@ -41,17 +42,17 @@ ul {
 }
 ul li a, .hero-link {
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--alt-font);
     font-size: 18px;
     color: var(--hero-link-color);
     font-weight: 700;
 }
 .nav-link {
-    padding-left: 32px;
+
 }
 .hero-container {
     display: flex;
-    padding: 100px 450px;
+
     flex-direction: row;
     justify-content: space-between;
 }
@@ -69,14 +70,14 @@ ul li a, .hero-link {
     font-size: 48px;
     font-weight: 1000;
     color: var(--hero-text-color);;
-    font-family: 'Oxygen', sans-serif;
+    font-family: var(--alt-font-2);
 }
 .hero-text, .sign-up-text-description {
     padding-top: 10px;
     font-size: 18px;
     font-weight: 500;
     color: var(--hero-link-color);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--alt-font);
 }
 .hero-img {
     height: 280px;
@@ -87,7 +88,7 @@ ul li a, .hero-link {
 .sign-up-button, button {
     padding: 8px 16px;
     border: 2px solid var(--main-bg-color-alt);
-    font-family: 'Oxygen', sans-serif;
+    font-family: var(--alt-font-2);
     font-size: 18px;
     background-color: var(--main-bg-color-alt);
     color: var(--hero-text-color);
@@ -105,7 +106,7 @@ ul li a, .hero-link {
     font-size: 36px;
     font-weight: 1000;
     color: var(--main-bg-color);
-    font-family: 'Oxygen', sans-serif;
+    font-family: var(--alt-font-2);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -132,7 +133,7 @@ ul li a, .hero-link {
     color: var(--main-bg-color);
     font-weight: 600;
     font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--alt-font);
     text-align: center;
 }
 .quote {
@@ -146,7 +147,7 @@ ul li a, .hero-link {
 }
 .quote-text {
     font-size: 36px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--alt-font);
     font-style: italic;
     color: var(--main-bg-color);
     width: 500px;
@@ -159,7 +160,7 @@ ul li a, .hero-link {
     flex-direction: row;
     width: 500px;
     justify-content: flex-end;
-    font-family: 'Oxygen', sans-serif;
+    font-family: var(--alt-font-2);
     font-weight: 700;
     padding: 10px 0;
     flex-shrink: 0;
@@ -182,8 +183,8 @@ ul li a, .hero-link {
 .sign-up-text-header {
     display: flex;
     font-size: 24px;
-    font-family: 'roboto', sans-serif;
-    color: #F9FAF8
+    font-family: var(--main-font);
+    color: var(--hero-text-color);
 }
 .sign-up-button-container {
     display: flex;
