@@ -16,3 +16,7 @@ Features:
 - Contains a quote generator coded with JavaScript.
 
 - Pictures of my rediculously cute husky.
+
+To Do:
+----------------
+- Create a CSS/JavaScript popup modal for the thumbnail pictures so they can be enlarged.
