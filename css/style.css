@@ -87,6 +87,10 @@ ul li a, .hero-link {
     color: #F9FAF8;
     border-radius: 10px;
     width: 126px;
+    cursor: pointer;
+}
+.sign-up-button:hover {
+    border-color: #F9FAF8;
 }
 .gallery {
     display: flex;
@@ -186,6 +190,10 @@ ul li a, .hero-link {
 }
 .white-border {
     border: 2px solid #F9FAF8;
+}
+.white-border:hover {
+    border-color: #1F2937;
+    color: #1F2937;
 }
 .footer {
     display: flex;
