@@ -215,3 +215,8 @@ i {
     width: 500px;
     text-align: right;
 }
+.quote-button:hover {
+    color: #3882F6;
+    cursor: pointer;
+    transform: scale(1.1);
+}
