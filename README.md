@@ -1,7 +1,18 @@
-# odin-landing-page
-This is the final project in The Odin Project's course on full-stack development for the CSS foundations section. The web page 
-is created from scratch based on two images provided by Odin. The images are contained in the img folder. The file directory 
-is structured similarly to how I was taught in college.
+Odin Landing Page
+======
+A basic landing page and the final assignment for The Odin Project's CSS foundations section. 
 
-All pictures were of our dog were taken by my lovely partner and used with her permission.
-Instagram @bex_120
+All pictures are of my dog and were taken by my lovely partner and used with her permission.
+Instagram: [@bex_120](https://www.instagram.com/bex_120/)
+
+:arrow_right:  [Live Demo](https://aaroncarlisle-cs.github.io/odin-landing-page/)
+
+Created as a part of the curriculum for [The Odin Project.](https://www.theodinproject.com/)
+
+Features:
+----------------
+- Uses basic HTML and CSS to create a modern landing page.
+
+- Contains a quote generator coded with JavaScript.
+
+- Pictures of my rediculously cute husky.
